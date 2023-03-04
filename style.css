@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bgimg {
+  background: url("./asset/moutainsbg.jpg") rgba(41, 41, 39, 0.865) bottom
+    no-repeat;
+  z-index: -555;
+}
+#mynav {
+  background-color: rgba(13, 12, 12, 0.3);
+}
+
+nav {
+  transition: all 0.2s;
+  display: flex;
+  position: fixed;
+  top: 0;
+  padding: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-colored {
+  background-color: #0c9875d7 !important;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+  color: rgb(37, 245, 182);
+}
+
+.about h1 {
+  font-size: 3.5rem;
+}
+
+.about h2 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+
+.slideup {
+  animation: 1s ease-out 0.5s 1 slideInFromBottom;
+}
+
+.footer {
+  background-color: #0c9875d7;
+  padding: 1.8rem;
+}
+
+.footer > footer > h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer_list {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.footer > footer > h4 {
+  text-align: center;
+}
+
+i {
+  transition: all 0.3s;
+  font-size: 1.5rem;
+}
+i:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
