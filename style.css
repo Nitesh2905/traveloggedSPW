@@ -19,13 +19,25 @@ li {
   font-weight: bold;
 }
 
-.bgimg {
+/* .bgimg {
   background: url("./asset/moutainsbg.jpg") rgba(41, 41, 39, 0.865) bottom
     no-repeat;
   z-index: -555;
+} */
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 #mynav {
-  background-color: rgba(13, 12, 12, 0.3);
+  background-color: rgba(13, 12, 12, 0.641);
   width: 100%;
 }
 
@@ -39,7 +51,7 @@ nav {
   align-items: center;
 }
 .nav-colored {
-  background-color: #0c9875d7 !important;
+  background-color: #414343d7 !important;
   width: 100%;
 }
 
@@ -50,7 +62,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 1.2rem;
-  color: rgb(37, 245, 182);
+  color: #f05a28;
 }
 
 .about h1 {
@@ -62,12 +74,15 @@ nav {
   font-size: 1.8rem;
 }
 
+.tagline {
+  text-transform: uppercase;
+}
 .slideup {
   animation: 1s ease-out 0.5s 1 slideInFromBottom;
 }
 
 .footer {
-  background-color: #0c9875d7;
+  background-color: #3c3a3aee;
   padding: 1.8rem;
 }
 
@@ -84,8 +99,9 @@ nav {
   padding: 1.5rem;
 }
 
-.footer > footer > h4 {
+.footer > footer > p {
   text-align: center;
+  font-weight: 100;
 }
 
 i {
