@@ -84,11 +84,13 @@ nav {
 .footer {
   background-color: #3c3a3aee;
   padding: 1.8rem;
+  color: #f05a28;
 }
 
 .footer > footer > h3 {
   text-align: center;
   font-size: 1.5rem;
+  color: white;
 }
 
 .footer_list {
@@ -104,11 +106,14 @@ nav {
   font-weight: 100;
 }
 
-i {
+i,
+svg {
   transition: all 0.3s;
   font-size: 1.5rem;
+  color: #f05a28;
 }
-i:hover {
+i:hover,
+svg:hover {
   transform: translateY(-10px);
 }
 
