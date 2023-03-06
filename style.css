@@ -126,3 +126,12 @@ svg:hover {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .about h1 {
+    font-size: 1.4rem;
+  }
+  .about h2 {
+    font-size: 1.2rem;
+  }
+}
